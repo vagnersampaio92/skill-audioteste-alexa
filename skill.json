@@ -1,67 +1,32 @@
 {
-  "skillManifest": {
-    "publishingInformation": {
-      "locales": {
-        "en-US": {
-          "summary": "Very basic podcast sample",
-          "examplePhrases": [
-            "Alexa, open audio player",
-            "Alexa, ask audio player to begin podcast",
-            "Alexa, ask audio player to stop"
-          ],
-          "keywords": [
-            "podcast",
-            "streaming",
-            "example"
-          ],
-          "name": "Multi Stream Audio Player",
-          "description": "",
-          "smallIconUri": "https://alexademo.ninja/skills/logo-108.png",
-          "largeIconUri": "https://alexademo.ninja/skills/logo-512.png"
+    "manifest": {
+        "publishingInformation": {
+            "locales": {
+                "pt-BR": {
+                    "name": "Olá Mundo",
+                    "summary": "Sample Short Description",
+                    "description": "Sample Full Description",
+                    "examplePhrases": [
+                        "Alexa abra olá mundo",
+                        "olá",
+                        "ajuda"
+                    ],
+                    "keywords": []
+                }
+            },
+            "isAvailableWorldwide": true,
+            "testingInstructions": "Sample Testing Instructions.",
+            "category": "KNOWLEDGE_AND_TRIVIA",
+            "distributionCountries": []
         },
-        "en-GB": {
-          "summary": "Very basic podcast sample",
-          "examplePhrases": [
-            "Alexa, open audio player",
-            "Alexa, ask audio player to begin podcast",
-            "Alexa, ask audio player to stop"
-          ],
-          "keywords": [
-            "podcast",
-            "streaming",
-            "example"
-          ],
-          "name": "Multi Stream Audio Player",
-          "description": "",
-          "smallIconUri": "https://alexademo.ninja/skills/logo-108.png",
-          "largeIconUri": "https://alexademo.ninja/skills/logo-512.png"
-        }
-      },
-      "isAvailableWorldwide": true,
-      "testingInstructions": "Include your testing instruction (if any) here",
-      "category": "STREAMING_SERVICE",
-      "distributionCountries": []
-    },
-    "apis": {
-      "custom": {
-        "endpoint": {
-          "sourceDir": "lambda"
+        "apis": {
+            "custom": {
+                "endpoint": {
+                    "sourceDir": "lambda/custom",
+                    "uri": "ask-custom-helloworld-default"
+                }
+            }
         },
-        "interfaces": [
-          {
-            "type": "AUDIO_PLAYER"
-          }
-        ]
-      }
-    },
-    "manifestVersion": "1.0",
-    "permissions": [],
-    "privacyAndCompliance": {
-      "allowsPurchases": false,
-      "isExportCompliant": true,
-      "containsAds": false,
-      "isChildDirected": false,
-      "usesPersonalInfo": false
+        "manifestVersion": "1.0"
     }
-  }
 }
