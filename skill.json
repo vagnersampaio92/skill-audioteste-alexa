@@ -1,32 +1,76 @@
 {
-    "manifest": {
-        "publishingInformation": {
-            "locales": {
-                "pt-BR": {
-                    "name": "Olá Mundo",
-                    "summary": "Sample Short Description",
-                    "description": "Sample Full Description",
-                    "examplePhrases": [
-                        "Alexa abra olá mundo",
-                        "olá",
-                        "ajuda"
-                    ],
-                    "keywords": []
-                }
-            },
-            "isAvailableWorldwide": true,
-            "testingInstructions": "Sample Testing Instructions.",
-            "category": "KNOWLEDGE_AND_TRIVIA",
-            "distributionCountries": []
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "alexa-hosted-s3-example-skill",
+          "summary": "Sample Short Description",
+          "description": "Sample Full Description",
+          "examplePhrases": [
+            "Alexa open hello world",
+            "hello",
+            "help"
+          ],
+          "keywords": []
         },
-        "apis": {
-            "custom": {
-                "endpoint": {
-                    "sourceDir": "lambda",
-                    "uri": "ask-custom-helloworld-default"
-                }
-            }
+        "en-GB": {
+          "name": "alexa-hosted-s3-example-skill",
+          "summary": "Sample Short Description",
+          "description": "Sample Full Description",
+          "examplePhrases": [
+            "Alexa open hello world",
+            "hello",
+            "help"
+          ],
+          "keywords": []
         },
-        "manifestVersion": "1.0"
-    }
+        "en-CA": {
+          "name": "alexa-hosted-s3-example-skill",
+          "summary": "Sample Short Description",
+          "description": "Sample Full Description",
+          "examplePhrases": [
+            "Alexa open hello world",
+            "hello",
+            "help"
+          ],
+          "keywords": []
+        },
+        "en-IN": {
+          "name": "alexa-hosted-s3-example-skill",
+          "summary": "Sample Short Description",
+          "description": "Sample Full Description",
+          "examplePhrases": [
+            "Alexa open hello world",
+            "hello",
+            "help"
+          ],
+          "keywords": []
+        },
+        "en-AU": {
+          "name": "alexa-hosted-s3-example-skill",
+          "summary": "Sample Short Description",
+          "description": "Sample Full Description",
+          "examplePhrases": [
+            "Alexa open hello world",
+            "hello",
+            "help"
+          ],
+          "keywords": []
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda",
+          "uri": "alexa-hosted-s3-example-skill"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
 }
